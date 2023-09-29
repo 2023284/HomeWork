@@ -25,7 +25,16 @@ public class HomeWork {
         System.out.println("Please enter your password ");
         
         password = myKB.nextLine();
+if(password.length() > 8){
+            
+            System.out.println("Your password is ok");
+        }
+        
+        else{
+            
+            System.out.println("Invalid - must be at least 8 characters");
 
     }
     
+}
 }
