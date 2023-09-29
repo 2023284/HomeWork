@@ -4,6 +4,8 @@
  */
 package homework;
 
+import java.util.Scanner;
+
 /**
  *
  * @author user
@@ -14,7 +16,16 @@ public class HomeWork {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+          System.out.println("Hello");
+        System.out.println("Wellcome to my program");
+        Scanner myKB = new Scanner(System.in);
+        
+        String password;
+        
+        System.out.println("Please enter your password ");
+        
+        password = myKB.nextLine();
+
     }
     
 }
