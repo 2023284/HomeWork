@@ -28,6 +28,18 @@ public class HomeWork {
 if(password.length() > 8){
             
             System.out.println("Your password is ok");
+              String services;
+        String response;
+      
+        System.out.println("Do you like over services?");
+        
+        services = myKB.nextLine();//get input
+     
+        System.out.println("How you give response?");
+        
+        response = myKB.nextLine();
+        
+        System.out.println( services  + " \n Thank for your response " + response);
         }
         
         else{
@@ -35,6 +47,6 @@ if(password.length() > 8){
             System.out.println("Invalid - must be at least 8 characters");
 
     }
-    
+        
 }
 }
